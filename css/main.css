@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot"); /* IE9 */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/Vazir.ttf") format("truetype"); /* Safari, Android, iOS */
+  }
+
+  body{
+    font-family: "Vazir"!important;
+  }
+
+  
+  .icon{
+    color: chartreuse;
+    display: inline-flex;
+  }
+
+  .background{
+    background-color: #cdf9c5;
+  }
+
+  .bg-center{
+    color: #0f0f0e ;
+    background-color: #cdf9c5 ;
+  }
+
+  .list-unstyle{
+    text-decoration: none;
+    color: #0f0f0e;
+  }
+
+  .footer-border{
+    border-bottom: 3px solid #0f0f0e;
+    height: 30px;
+  }
+
+  .list-unstyle:hover{
+    color: #0f0f0e;
+  }
+
+  @media (min-width: 0px ) and (max-width: 300px ) {
+    body{
+      background-color: chartreuse;
+    }
+  }
